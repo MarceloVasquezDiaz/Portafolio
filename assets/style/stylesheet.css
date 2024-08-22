@@ -1,0 +1,96 @@
+body{
+    /* Backgroud gradiente */
+    background: linear-gradient(to right, #2F3E46, #354F52);
+
+}
+
+.navbar, .nav-link, .navbar-brand {
+    background-color: #52796F;
+    color: #CAD2C5;
+}
+.container-main {
+    background-color: #52796F;
+    border-radius: 5px;
+}
+
+.container-formulario {
+    background-color: #52796F;
+    border-radius: 5px;
+    color: #CAD2C5;
+}
+
+.form-control {
+    background-color: #84A98C;
+    border: #CAD2C5 solid 1px;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+    color: #CAD2C5;
+}
+
+.calistoga-regular {
+    /* Font del nav */
+    font-family: "Calistoga", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.btn-outline-success {
+    border-color: #CAD2C5;
+    color: #CAD2C5;
+}
+
+.btn-outline-success:hover {
+    border-color: #84A98C;
+    background-color: #84A98C;
+}
+
+.btn-outline-success:focus {
+    border-color: #84A98C;
+    background-color: #84A98C;
+    box-shadow: 0 0 0 0.15em #2F3E46;
+}
+
+.fa-solid{
+    color: #CAD2C5;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #52796F;
+    width: 100%;
+    min-height: 100px;
+}
+
+.enviado {
+    background-color: #84A98C;
+    border: solid #CAD2C5 0.25em;
+    border-radius: 5px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0.25em #2F3E46;
+}
+
+.card{
+    background-color: #CAD2C5;
+}
+
+.card p, .card h5{
+    color: #2F3E46;
+}
+
+.img-fluid {
+    width: fit-content;
+}
+
+.oculto {
+    display: none;
+}
+
+.textopie {
+    text-align: center;
+}
